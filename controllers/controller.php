@@ -15,7 +15,10 @@ class MvcController{
         }else{
             $enlacesController="index";
         }
-        $respuesta = EnlacesPaginas::enlacesPaginasModel($enlacesController);
+        $objeto = new EnlacesPaginas();
+        $respuesta = $objeto->enlacesPaginasModel($enlacesController);
+
+        //$respuesta = EnlacesPaginas::enlacesPaginasModel($enlacesController);
 
         include $respuesta;
 

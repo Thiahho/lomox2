@@ -15,7 +15,7 @@
           <a class="nav-link active" href="index.php?action=login">login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.php?action=link3">link3</a>
+          <a class="nav-link" href="index.php?action=registro">Registro</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.php?action=link4">link4</a>

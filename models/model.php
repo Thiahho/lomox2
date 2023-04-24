@@ -7,7 +7,8 @@ class EnlacesPaginas{
 
         if( $enlacesModel == "inicio"||
             $enlacesModel == "login" ||
-            $enlacesModel == "link3" ||
+            $enlacesModel == "registro" ||
+            $enlacesModel =="olvidocontrseña" ||
             $enlacesModel == "link4"){
                 $module = "views/modulos/".$enlacesModel.".php";
         }else if($enlacesModel == "index"){
