@@ -4,13 +4,14 @@ echo "<link rel='stylesheet' type='text/css' href='css/style.css'>";
 echo "</head>";
 ?>  
 
-<div class="container-regis mt-4	 col-lg-6">
+
+<div class="container mt-4 col-lg-6">
 		<div class="card-regis col-sm-10">
 			<div class="card-body">
 				<form action="Validar" class="form-registro" method="post">
 
 					<h1>Registrarse</h1>
-                    <div class="contenedor">
+                    <div class="input-contenedor">
 						<div class="input-contenedor">
 							<i class="fas fa-envelope icon"></i> 
 							<input name="txtemail" type="email" placeholder="Email">
@@ -33,3 +34,11 @@ echo "</head>";
 			</div>
 		</div>
 	</div>
+
+<?php
+/*
+$p_nombre = $_POST['txtnombre'];
+$p_email = $_POST['txtemail'];
+$p_password = $_POST['password'];
+*/
+?>

@@ -1,5 +1,4 @@
 
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -24,6 +23,8 @@ h1{
     color: #1a2537;
     font-size: 40px;
 }
+
+input[type="email"],
 input[type="text"],
 input[type="password"]{
     font-size: 20px;
@@ -88,6 +89,11 @@ p{
 .regis{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 40%;
+}
+.olvide-contra{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40%;
+    padding-left: 5%;
 }
 
 
