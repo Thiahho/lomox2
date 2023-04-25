@@ -20,6 +20,7 @@
     <?php
         $mvc = new MvcController(); 
         $mvc -> enlacesPaginasController();
+        
     ?>
 </section>
 </body>
